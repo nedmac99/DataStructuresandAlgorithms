@@ -43,6 +43,21 @@ Exploring Python lists through practical applications:
 
 ---
 
+### 🚶 Queues
+Exploring FIFO (First In, First Out) operations through practical applications:
+
+| Project | Description | Concepts Used |
+|---------|-------------|---------------|
+| **🎫 Queue System** | Manage a queue where people can join and leave in FIFO order | `append()`, `pop(0)`, list iteration, user input handling |
+
+**Key Queue Operations Covered:**
+- ➕ Enqueue (join queue) with `append()`
+- ➖ Dequeue (leave queue) with `pop(0)`
+- 👀 View queue contents
+- 🔄 FIFO order management
+
+---
+
 ## 🗺️ Roadmap — Coming Soon!
 
 <table>
@@ -58,11 +73,6 @@ Exploring Python lists through practical applications:
 - LIFO (Last In, First Out) operations
 - Push & Pop implementations
 - Real-world use cases
-
-### 🚶 Queues
-- FIFO (First In, First Out) operations
-- Enqueue & Dequeue
-- Priority queues
 
 ### 🔐 Hash Maps
 - Key-value pair storage
@@ -136,9 +146,12 @@ DataStructuresandAlgorithms/
 │   ├── gym_log.py           ✅ Implemented
 │   └── player_inventory.py  ✅ Implemented
 │
+├── 📁 queues/
+│   ├── queues_example.py    ✅ Implemented
+│   └── deques_example.py    🔜 Coming Soon
+│
 ├── 📁 linked_list/          🔜 Coming Soon
 ├── 📁 stacks/               🔜 Coming Soon
-├── 📁 queues/               🔜 Coming Soon
 ├── 📁 hash_maps/            🔜 Coming Soon
 ├── 📁 sets/                 🔜 Coming Soon
 ├── 📁 binary_search_trees/  🔜 Coming Soon
