@@ -8,7 +8,7 @@ gym_log = []
 
 def main():
     while True:
-        selection = input("Enter selection: \n1.Add\n2.Remove\n3.View Log\n4.Exit\n")
+        selection = input("Enter selection: \n1.Add\n2.Remove\n3.View Log(Alphabetically)\n4.Exit\n")
 
         if selection == str(1):
             print()
@@ -29,7 +29,7 @@ def main():
             if not gym_log:
                 print("\nNo one is in the log\n")
             else:    
-                print(f"\n{gym_log}\n")
+                print(f"\n{sorted(gym_log)}\n")
 
         elif selection == str(4):
             sys.exit("\nThanks for using my log!\n")
