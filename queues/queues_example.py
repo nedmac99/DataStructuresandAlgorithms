@@ -3,7 +3,9 @@
 #Maybe alter it so it represents a spotify Queue. Maybe use deque for this?
 
 import sys
+
 queue = []
+
 def main():
     while True:
         selection = input("Enter selection: \n1.Join Queue\n2.Leave Queue\n3.View Queue\n4.Exit\n")
