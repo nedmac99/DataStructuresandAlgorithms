@@ -31,7 +31,7 @@ Exploring Python lists through practical applications:
 
 | Project | Description | Concepts Used |
 |---------|-------------|---------------|
-| **🏋️ Gym Log** | Track gym members entering and leaving the building | `append()`, `remove()`, list iteration, user input handling |
+| **🏋️ Gym Log** | Track gym members entering and leaving the building | `append()`, `remove()`, `sorted()`, list iteration, user input handling |
 | **🎮 Player Inventory** | Manage a game character's inventory system | `append()`, `remove()`, `len()`, conditional logic |
 
 **Key List Operations Covered:**
@@ -176,8 +176,6 @@ This is a personal learning project, but suggestions and feedback are always wel
 
 ---
 
-**Made with ❤️ and a passion for learning**
-
-*© 2024 | Data Structures & Algorithms Practice*
+*© 2026 | Data Structures & Algorithms Practice*
 
 </div>
