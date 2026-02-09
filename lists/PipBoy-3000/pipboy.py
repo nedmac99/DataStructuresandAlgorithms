@@ -144,7 +144,6 @@ def use_aid():
             aids[aid] = str(new_qty)
             print(f"{aid_quant_to_use} {aid}(s) used!")
 
-#Right now it just reassigns the quantity to whatever im telling it to use
 def drop_misc(): 
     misc = input("misc: ")
     current_qty = int(miscs[misc])
@@ -160,7 +159,6 @@ def drop_misc():
             miscs[misc] = str(new_qty)
             print(f"{misc_quant_to_use} {misc}(s) used!")
 
-#Right now it just reassigns the quantity to whatever im telling it to use
 def use_ammo(): 
     ammo = input("ammo: ")
     current_qty = int(ammos[ammo])
