@@ -1,5 +1,4 @@
 #Add json structure to persist data
-#Maybe a dictionary for aid/misc/ammo to have a quantity attached to it where the name is the key and the value is the quantity
 
 import csv, sys, json
 from pathlib import Path
